@@ -1,7 +1,7 @@
 import { background, border, Box, Button, Center, Container, Flex, Grid, Heading, Image, SimpleGrid, Text } from '@chakra-ui/react'
 import React from 'react'
 import profile from "../Image/my-img.png"
-import back from "../Image/back.png"
+import back from "../Image/back1.png"
 import Styles from "../Components/Navbar.module.css"
 
 
@@ -15,7 +15,7 @@ const Home = () => {
                         <SimpleGrid w="90%" m="auto">
                             <Box position="relative" ml={10}>
                                 <Image h="300px" w="400px" src={back} />
-                                <Image src={profile} w="280px" borderRadius="5px" position="absolute" h="250px" top={["5", "6", "7", "8"]} left={5} />
+                                <Image src={profile} marginRight="40px" w="280px" borderRadius="5px" position="absolute" h="250px" top={["5", "6", "7", "8"]} left={5} />
                             </Box>
                             <Box ml={10} mt={10}>
                                 <Text fontSize="3xl" fontWeight="bold">Hello, 👋 I,m</Text>
