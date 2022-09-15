@@ -6,6 +6,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import WbSunnyRoundedIcon from "@mui/icons-material/WbSunnyRounded";
 import {jsPDF} from "jspdf";
+import resume from '../../Image/Pavan_Ambulkar_Resume.pdf'
 
 export const Navbar = () => {
   const [{ themename, toggeltheme }] = React.useContext(ThemeContext);
@@ -72,7 +73,7 @@ export const Navbar = () => {
           </li>
           <li className="nav__list-item">
             <a
-              href="Pavan_Ambulkar_Resume"
+              href={resume}
               download="Pavan_Ambulkar_Resume"
               onClick={toggleNavList}
               type="file"
