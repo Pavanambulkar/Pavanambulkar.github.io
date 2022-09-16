@@ -2,6 +2,8 @@ import React from "react";
 import HeroImage from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
+import resume from "../assets/Pavan_Ambulkar_Resume.pdf";
+
 
 const Home = () => {
   return (
@@ -22,7 +24,14 @@ const Home = () => {
                 IT industry.
           </p>
 
-          
+          <a
+        href={resume}
+        download="Pavan_Ambulkar_Resume"
+        type="file"
+        className="text-white text-center rounded-full bg-blue-500 w-20"
+        target="_blank"
+        rel="noreferrer"
+      >Resume</a>
         </div>
 
         <div>

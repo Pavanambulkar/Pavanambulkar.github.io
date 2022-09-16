@@ -4,7 +4,6 @@ import installNode from "../assets/portfolio/life.png";
 import navbar from "../assets/portfolio/expedia2.png";
 import reactParallax from "../assets/portfolio/zappos1.png";
 import reactSmooth from "../assets/portfolio/prime1.png";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import { Link } from "react-router-dom";
 
 const Portfolio = () => {

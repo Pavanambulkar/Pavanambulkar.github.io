@@ -27,13 +27,7 @@ const NavBar = () => {
       id: 5,
       link: "contact",
     },
-    {
-      id: 6,
-      link: "Resume",
-      href : resume,
-      download: true
-      
-    },
+    
   ];
 
   return (
@@ -50,15 +44,7 @@ const NavBar = () => {
           >
             <Link to={link} smooth duration={500}>
               {link}
-              <a
-        href={href}
-        download={download}
-        type="file"
-        className="link link--nav"
-        target="_blank"
-        rel="noreferrer"
-        
-      ></a>
+             
               
             </Link>
            

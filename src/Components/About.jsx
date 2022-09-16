@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const About = () => {
   return (
     <div
@@ -26,6 +27,8 @@ const About = () => {
         I love working on new and exciting technologies emerging nowadays.
         </p>
       </div>
+
+
     </div>
   );
 };

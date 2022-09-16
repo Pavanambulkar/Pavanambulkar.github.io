@@ -6,7 +6,7 @@ import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import mongo from "../assets/mongo.png";
 import node from "../assets/node.png";
-import github from "../assets/github.png";
+import github from "../assets/github1.png";
 import tailwind from "../assets/tailwind.png";
 import redux from "../assets/redux.png";
 import mui from "../assets/mui.png";
