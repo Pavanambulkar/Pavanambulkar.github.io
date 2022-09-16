@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-import resume from "../assets/Pavan_Ambulkar_Resume.pdf"
+import resume from "../assets/Pavan_Ambulkar_Resume.pdf";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -17,21 +17,21 @@ const NavBar = () => {
     },
     {
       id: 3,
-      link: "Projects",
-    },
-    {
-      id: 4,
       link: "Technology",
     },
     {
-      id: 5,
+      id: 4,
       link: "Skills",
     },
+    {
+      id: 5,
+      link: "Projects",
+    },
+
     {
       id: 6,
       link: "contact",
     },
-    
   ];
 
   return (
@@ -48,11 +48,7 @@ const NavBar = () => {
           >
             <Link to={link} smooth duration={500}>
               {link}
-             
-              
             </Link>
-           
-            
           </li>
         ))}
       </ul>
