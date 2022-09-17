@@ -20,75 +20,76 @@ const Experience = () => {
       id: 1,
       src: html,
       title: "HTML",
-      style: "shadow-orange-500",
+      style: "shadow-500",
+        //  style: "shadow-transparent"
     },
     
     {
       id: 2,
       src: javascript,
       title: "JavaScript",
-      style: "shadow-yellow-500",
+      style: "shadow-500",
     },
     {
       id: 3,
       src: reactImage,
       title: "React",
-      style: "shadow-blue-600",
+      style: "shadow-500",
     },
     {
         id: 4,
         src: redux,
         title: "Redux",
-        style: "shadow-sky-400",
+        style: "shadow-500",
       },
       {
         id: 5,
         src: node,
         title: "Node Js",
-        style: "shadow-pink-400",
+        style: "shadow-500",
       },
       {
         id: 6,
         src: mongo,
         title: "MongoDb",
-        style: "shadow-white",
+        style: "shadow-500",
       },
       
       {
           id: 7,
           src: express,
           title: "Express Js",
-          style: "shadow-pink-400",
+          style: "shadow-500",
         },
         {
           id: 8,
           src: github,
           title: "GitHub",
-          style: "shadow-gray-400",
+          style: "shadow-500",
         },
         {
           id: 9,
           src: css,
           title: "CSS",
-          style: "shadow-blue-500",
+          style: "shadow-500",
         },
     {
       id: 10,
       src: tailwind,
       title: "Tailwind",
-      style: "shadow-sky-400",
+      style: "shadow-500",
     },
     {
         id: 11,
         src: mui,
         title: "Material UI",
-        style: "shadow-sky-400",
+        style: "shadow-500",
       },
       {
         id: 12,
         src: bootstrap,
         title: "BootStrap",
-        style: "shadow-sky-400",
+        style: "shadow-500",
       },
     
     

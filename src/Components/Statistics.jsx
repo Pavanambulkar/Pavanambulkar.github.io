@@ -2,6 +2,7 @@ import React from "react";
 import ReactApexChart from "react-apexcharts";
 import { buildStyles, CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
+import GitHubCalendar from "react-github-calendar";
 
 // const percentage = 66;
 const Statistics = () => {
@@ -72,6 +73,9 @@ const Statistics = () => {
             ))}
           </div>
         </div>
+                <div className="justify-center  text-black mt-2  border-zinc-900 m-auto">
+                  <GitHubCalendar  username="Pavanambulkar" year={new Date().getFullYear()} />
+                </div>
       </div>
     </div>
   );

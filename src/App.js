@@ -20,7 +20,7 @@ function App() {
       <Statistics/>
       <Contact />
 
-      <SocialLinks />
+      
     </div>
   );
 }

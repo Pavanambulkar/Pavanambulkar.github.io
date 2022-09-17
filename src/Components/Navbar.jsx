@@ -30,14 +30,21 @@ const NavBar = () => {
 
     {
       id: 6,
-      link: "contact",
+      link: "Statistics",
+    },
+    {
+      id: 7,
+      link: "Contact",
     },
   ];
 
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-grey bg-white fixed">
-      <div>
+      <div >
+        <Link to="home" smooth duration={500}>
+
         <h1 className="text-5xl font-signature ml-2">Pavan</h1>
+        </Link>
       </div>
 
       <ul className="hidden md:flex">

@@ -35,7 +35,7 @@ const Portfolio = () => {
       link1: "https://jolly-tulumba-a0bccf.netlify.app/",
       link2: "https://github.com/kiranwithcode/Expedia_Clone",
 
-      para: "Expedia is one of the fastest growing online travel portals in Asia, offering travellers an extensive selection of hotels, activities and travel services to meet every budget and activities of every kind at competitive rates.",
+      para: "Expedia is one of the fastest growing online travel portals in Asia, offering travellers an extensive selection of hotels, activities and travel services to meet every budget.",
     },
     {
       id: 4,
@@ -92,16 +92,18 @@ const Portfolio = () => {
                 <a href={link1} target="_blank" rel="noreferrer">
                   <span
                     type="button"
-                    className="w-1/2 px-6 py-3 text-black m-4 duration-200 hover:scale-105"
+                    class="text-white bg-gradient-to-br mt-4 from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                   >
                     Deploy
                   </span>
                 </a>
 
+
                 <a href={link2} target="_blank" rel="noreferrer">
                   <span
                     type="button"
-                    className="w-1/2 px-6 py-3 text-black m-4 duration-200 hover:scale-105"
+                    // className="w-1/2 px-6 py-3 text-black m-4 duration-200 hover:scale-105"
+                    className="text-white w-2/2 mt-4  bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                   >
                     Github
                   </span>

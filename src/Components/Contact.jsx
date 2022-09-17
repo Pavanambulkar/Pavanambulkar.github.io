@@ -1,7 +1,9 @@
 import React from "react";
+import SocialLinks from "./SocialLinks";
 
 const Contact = () => {
   return (
+    <>
     <div
       name="contact"
       className="w-full mt-20 h-screen  bg-red-100 bg-gradient-to-b from-white to-white-800 p-4 text-black"
@@ -47,6 +49,8 @@ const Contact = () => {
         </div>
       </div>
     </div>
+      <SocialLinks/>
+    </>
   );
 };
 
