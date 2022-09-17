@@ -13,7 +13,6 @@ import mui from "../assets/mui.png";
 import bootstrap from "../assets/bootstrap.png";
 import express from "../assets/express.png";
 
-
 const Experience = () => {
   const techs = [
     {
@@ -21,9 +20,9 @@ const Experience = () => {
       src: html,
       title: "HTML",
       style: "shadow-500",
-        //  style: "shadow-transparent"
+      //  style: "shadow-transparent"
     },
-    
+
     {
       id: 2,
       src: javascript,
@@ -37,42 +36,42 @@ const Experience = () => {
       style: "shadow-500",
     },
     {
-        id: 4,
-        src: redux,
-        title: "Redux",
-        style: "shadow-500",
-      },
-      {
-        id: 5,
-        src: node,
-        title: "Node Js",
-        style: "shadow-500",
-      },
-      {
-        id: 6,
-        src: mongo,
-        title: "MongoDb",
-        style: "shadow-500",
-      },
-      
-      {
-          id: 7,
-          src: express,
-          title: "Express Js",
-          style: "shadow-500",
-        },
-        {
-          id: 8,
-          src: github,
-          title: "GitHub",
-          style: "shadow-500",
-        },
-        {
-          id: 9,
-          src: css,
-          title: "CSS",
-          style: "shadow-500",
-        },
+      id: 4,
+      src: redux,
+      title: "Redux",
+      style: "shadow-500",
+    },
+    {
+      id: 5,
+      src: node,
+      title: "Node Js",
+      style: "shadow-500",
+    },
+    {
+      id: 6,
+      src: mongo,
+      title: "MongoDb",
+      style: "shadow-500",
+    },
+
+    {
+      id: 7,
+      src: express,
+      title: "Express Js",
+      style: "shadow-500",
+    },
+    {
+      id: 8,
+      src: github,
+      title: "GitHub",
+      style: "shadow-500",
+    },
+    {
+      id: 9,
+      src: css,
+      title: "CSS",
+      style: "shadow-500",
+    },
     {
       id: 10,
       src: tailwind,
@@ -80,19 +79,17 @@ const Experience = () => {
       style: "shadow-500",
     },
     {
-        id: 11,
-        src: mui,
-        title: "Material UI",
-        style: "shadow-500",
-      },
-      {
-        id: 12,
-        src: bootstrap,
-        title: "BootStrap",
-        style: "shadow-500",
-      },
-    
-    
+      id: 11,
+      src: mui,
+      title: "Material UI",
+      style: "shadow-500",
+    },
+    {
+      id: 12,
+      src: bootstrap,
+      title: "BootStrap",
+      style: "shadow-500",
+    },
   ];
 
   return (
@@ -105,7 +102,6 @@ const Experience = () => {
           <p className="text-4xl font-bold text-black border-b-4 border-pink-500 p-2 inline">
             Tech Stack
           </p>
-         
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">

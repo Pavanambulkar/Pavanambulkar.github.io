@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const About = () => {
   return (
     <div
@@ -15,7 +14,7 @@ const About = () => {
         </div>
 
         <p className="text-xl text-gray-500 ">
-        A Full Stack Developer who loves solving problems and building
+          A Full Stack Developer who loves solving problems and building
           projects. Attired with a variety of tools & technologies and keen to
           learn new one.
         </p>
@@ -23,12 +22,11 @@ const About = () => {
         <br />
 
         <p className="text-xl text-gray-500">
-        Looking forward to applying and enhancing my skills and knowledge as a developer.
-        I love working on new and exciting technologies emerging nowadays.
+          Looking forward to applying and enhancing my skills and knowledge as a
+          developer. I love working on new and exciting technologies emerging
+          nowadays.
         </p>
       </div>
-
-
     </div>
   );
 };

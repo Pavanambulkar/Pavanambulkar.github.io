@@ -24,7 +24,6 @@ const Portfolio = () => {
       tech: "HTML | CSS | JavaScript | Rest API",
       link1: "https://pavanambulkar.github.io/Zappos_web_clone/",
       link2: "https://github.com/Pavanambulkar/Zappos_web_clone",
-
       para: "Zappos is one of the fastest growing online Shopping portals in Asia, offering Shopping an extensive selection of Men, Women and  Kids Products to Enjoy every moment.",
     },
     {
@@ -34,7 +33,6 @@ const Portfolio = () => {
       tech: "HTML | CSS | JavaScript | Rest API",
       link1: "https://jolly-tulumba-a0bccf.netlify.app/",
       link2: "https://github.com/kiranwithcode/Expedia_Clone",
-
       para: "Expedia is one of the fastest growing online travel portals in Asia, offering travellers an extensive selection of hotels, activities and travel services to meet every budget.",
     },
     {
@@ -44,7 +42,6 @@ const Portfolio = () => {
       tech: "HTML | CSS | JavaScript | Rest API",
       link1: "https://pavanambulkar.github.io/PRIME_GITHUB_PROJECT/",
       link2: "https://github.com/Pavanambulkar/PRIME_GITHUB_PROJECT",
-
       para: "Prime Video is an on-demand streaming service that's included with an Amazon Prime membership. If you don't have Amazon Prime, you can also sign up for Prime Video on its own.",
     },
     {
@@ -54,7 +51,6 @@ const Portfolio = () => {
       tech: "HTML | CSS | JavaScript | Rest API",
       link1: "https://elastic-volhard-0f1c35.netlify.app/",
       link2: "https://github.com/prithvirajkeerthi/LifeStyleStores",
-
       para: " In this project we have tried to make a look alike clone of lifestylestore.com website. With our efforts and the technology stack, that we have learned till now in Unit-2 in the masai school.",
     },
   ];
@@ -97,7 +93,6 @@ const Portfolio = () => {
                     Deploy
                   </span>
                 </a>
-
 
                 <a href={link2} target="_blank" rel="noreferrer">
                   <span

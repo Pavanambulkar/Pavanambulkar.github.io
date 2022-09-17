@@ -1,6 +1,4 @@
 import React from "react";
-import ReactApexChart from "react-apexcharts";
-import { buildStyles, CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import GitHubCalendar from "react-github-calendar";
 
@@ -13,7 +11,7 @@ const Statistics = () => {
       title: "HOURS",
       style: "shadow-orange-500",
       one: "Hours Of Coding",
-      percentage : "1200+"
+      percentage: "1200+",
     },
     {
       id: 2,
@@ -21,8 +19,7 @@ const Statistics = () => {
       title: "CONTRIBUTIONS",
       style: "shadow-blue-500",
       one: "Git Commits",
-      percentage : "200+"
-
+      percentage: "200+",
     },
     {
       id: 3,
@@ -30,16 +27,14 @@ const Statistics = () => {
       title: "PROJECTS",
       style: "shadow-yellow-500",
       one: "Projects Done",
-      percentage : "6+"
-
+      percentage: "6+",
     },
     {
       id: 4,
       title: "SOFT SKILLS",
       style: "shadow-blue-600",
       one: "Hours Of Soft Skills Sessions",
-      percentage : "100+"
-
+      percentage: "100+",
     },
   ];
 
@@ -61,21 +56,26 @@ const Statistics = () => {
               >
                 <p className="mt-4 text-pink-700 font-semibold">{title}</p>
                 <div className="w-full  grid grid-cols-2  align-center  justify-center sm:grid-cols-2 gap-8 text-center  py-8 px-12 sm:px-0">
-                    <div>
-
-                   <h1 className="text-red-800 text-6xl text-center	">{percentage}</h1>
-                  <p className="text-black text-2xl font-medium mt-3 "> {one}</p>
-                    </div>
-                 
-                 
+                  <div>
+                    <h1 className="text-red-800 text-6xl text-center	">
+                      {percentage}
+                    </h1>
+                    <p className="text-black text-2xl font-medium mt-3 ">
+                      {" "}
+                      {one}
+                    </p>
+                  </div>
                 </div>
               </div>
             ))}
           </div>
         </div>
-                <div className="justify-center  text-black mt-2  border-zinc-900 m-auto">
-                  <GitHubCalendar  username="Pavanambulkar" year={new Date().getFullYear()} />
-                </div>
+        <div className="justify-center  text-black mt-2  border-zinc-900 m-auto">
+          <GitHubCalendar
+            username="Pavanambulkar"
+            year={new Date().getFullYear()}
+          />
+        </div>
       </div>
     </div>
   );

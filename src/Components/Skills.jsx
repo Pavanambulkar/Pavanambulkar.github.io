@@ -1,21 +1,5 @@
 import React from "react";
 
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import javascript from "../assets/javascript.png";
-import reactImage from "../assets/react.png";
-import mongo from "../assets/mongo.png";
-import node from "../assets/node.png";
-import github from "../assets/github1.png";
-import express from "../assets/express.png";
-import problem from "../assets/problem.png";
-import stack from "../assets/stack.png";
-import array from "../assets/array.png";
-import queue from "../assets/queue.png";
-import listen from "../assets/listen.png";
-import writing from "../assets/writing.png";
-import empathy from "../assets/empathy.png";
-import collaboration from "../assets/collaboration.png";
 import {
   FaAirFreshener,
   FaAssistiveListeningSystems,

@@ -4,7 +4,6 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import resume from "../assets/Pavan_Ambulkar_Resume.pdf";
 
-
 const Home = () => {
   return (
     <div
@@ -17,22 +16,23 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-          Hello! My name is <span className="different">Pavan Ambulkar </span>{" "}
-                from <span className="different"> Amravati Maharashtra</span> I am
-                an Aspiring Full Stack Web Developer. An optimistic and
-                self-motivated individual, looking forward to working within the
-                IT industry.
+            Hello! My name is <span className="different">Pavan Ambulkar </span>{" "}
+            from <span className="different"> Amravati Maharashtra</span> I am
+            an Aspiring Full Stack Web Developer. An optimistic and
+            self-motivated individual, looking forward to working within the IT
+            industry.
           </p>
 
           <a
-        href={resume}
-        download="Pavan_Ambulkar_Resume"
-        type="file"
-        class="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"        target="_blank"
-        rel="noreferrer"
-      >Resume</a>
-
-      
+            href={resume}
+            download="Pavan_Ambulkar_Resume"
+            type="file"
+            class="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Resume
+          </a>
         </div>
 
         <div>
@@ -50,10 +50,3 @@ const Home = () => {
 };
 
 export default Home;
-
-
-
-
-
-
-
