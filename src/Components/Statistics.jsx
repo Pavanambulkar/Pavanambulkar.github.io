@@ -41,7 +41,7 @@ const Statistics = () => {
   return (
     <div
       name="Statistics"
-      className="bg-gradient-to-b mt-0  max-h-full from-white-800 to-white w-full max-h-ful"
+      className="bg-gradient-to-b mt-0 bg-lime-100		 max-h-full from-white-800 to-white w-full max-h-ful"
     >
       <div className="max-w-screen-lg  mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>

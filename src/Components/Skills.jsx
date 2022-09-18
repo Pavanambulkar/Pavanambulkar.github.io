@@ -46,15 +46,15 @@ const Skills = () => {
       seven: "Material Ui",
       eight: "Bootstrap",
       nine: "NPM",
-      img1: <FaHtml5 />,
-      img2: <FaCss3Alt />,
-      img3: <FaJs />,
-      img4: <FaReact />,
-      img5: <SiRedux />,
-      img6: <SiTailwindcss />,
-      img7: <SiMaterialui />,
-      img8: <SiBootstrap />,
-      img9: <SiNpm />,
+      img1: <FaHtml5 color="orange"  />,
+      img2: <FaCss3Alt color="blue" />,
+      img3: <FaJs color="yellow" />,
+      img4: <FaReact color="lightblue" />,
+      img5: <SiRedux color="violet" />,
+      img6: <SiTailwindcss color="teal" />,
+      img7: <SiMaterialui color="blue" />,
+      img8: <SiBootstrap color="indigo" />,
+      img9: <SiNpm color="red" />,
     },
     {
       id: 2,
@@ -68,12 +68,12 @@ const Skills = () => {
       five: "Postman",
       six: "Git",
 
-      img1: <FaNodeJs />,
-      img2: <SiMongodb />,
-      img3: <SiExpress />,
+      img1: <FaNodeJs color="lightgreen" />,
+      img2: <SiMongodb color="green" />,
+      img3: <SiExpress color="orange"/>,
       img4: <FaGithub />,
-      img5: <SiPostman />,
-      img6: <FaGitAlt />,
+      img5: <SiPostman color="darkorange"/>,
+      img6: <FaGitAlt color="red" />,
     },
     {
       id: 3,
@@ -85,10 +85,10 @@ const Skills = () => {
       three: "Stack",
       four: "Queue",
 
-      img1: <FaResolving />,
-      img2: <MdViewArray />,
-      img3: <FaStackExchange />,
-      img4: <AiTwotoneDatabase />,
+      img1: <FaResolving color="blue" />,
+      img2: <MdViewArray color="grey" />,
+      img3: <FaStackExchange color="cyan" />,
+      img4: <AiTwotoneDatabase color="white" />,
     },
     {
       id: 4,
@@ -101,19 +101,19 @@ const Skills = () => {
       five: "Confidence",
       six: "Respect ",
 
-      img1: <TbWritingSign />,
-      img2: <FcCollaboration />,
-      img3: <FaAssistiveListeningSystems />,
-      img4: <RiEmpathizeLine />,
-      img5: <GiConfirmed />,
-      img6: <FaAirFreshener />,
+      img1: <TbWritingSign color="red" />,
+      img2: <FcCollaboration  />,
+      img3: <FaAssistiveListeningSystems color="skin" />,
+      img4: <RiEmpathizeLine color="red" />,
+      img5: <GiConfirmed color="green" />,
+      img6: <FaAirFreshener color="pink" />,
     },
   ];
 
   return (
     <div
       name="Skills"
-      className="bg-gradient-to-b mt-0  max-h-full from-white-800 to-white w-full max-h-ful"
+      className="bg-gradient-to-b mt-0  max-h-full from-white-800 bg-stone-200	 to-white w-full max-h-ful"
     >
       <div className="max-w-screen-lg  mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>

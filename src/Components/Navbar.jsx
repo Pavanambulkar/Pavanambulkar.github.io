@@ -39,10 +39,10 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-grey bg-white fixed">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-grey bg-pink-400		 fixed">
       <div>
         <Link to="home" smooth duration={500}>
-          <h1 className="text-5xl font-signature ml-2">Pavan</h1>
+          <h1 className="text-5xl cursor-pointer font-signature ml-2">Pavan</h1>
         </Link>
       </div>
 
@@ -50,7 +50,7 @@ const NavBar = () => {
         {links.map(({ id, link, href, download }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
+            className="px-4 cursor-pointer capitalize font-semibold		 text-gray-500 hover:scale-105 duration-200"
           >
             <Link to={link} smooth duration={500}>
               {link}
