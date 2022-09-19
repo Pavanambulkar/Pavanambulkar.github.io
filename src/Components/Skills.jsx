@@ -101,7 +101,7 @@ const Skills = () => {
       five: "Confidence",
       six: "Respect ",
 
-      img1: <TbWritingSign color="red" />,
+      img1: <TbWritingSign  color="red" />,
       img2: <FcCollaboration  />,
       img3: <FaAssistiveListeningSystems color="skin" />,
       img4: <RiEmpathizeLine color="red" />,
@@ -152,57 +152,58 @@ const Skills = () => {
                 >
                   <p className="mt-4 text-pink-700 font-semibold">{title}</p>
                   <div className="w-full grid grid-cols-1  sm:grid-cols-3 gap-8 text-center  py-8 px-12 sm:px-0">
-                    <div>
+                    <div className="">
                       {/* <img className="w-10 mx-auto " src={img1} alt="Html" /> */}
-                      <p className="bg-black ml-10		 mb-1 align-middle  text-5xl	place-content-center w-12 ">
+                      {/* bg-black ml-10 	mb-1 sm:align-middle  text-5xl	sm:place-content-center w-12  */}
+                      <p className="m-auto flex bg-black text-5xl justify-center sm:align-middle w-12 sm:place-content-center object-center">
                         {img1}
                       </p>
-                      <p className="text-black   font-medium mt-3">{one}</p>
+                      <p className="text-black sm:text-center  font-medium mt-3">{one}</p>
                     </div>
                     <div>
-                      <p className="bg-black ml-10		 mb-1 align-middle  text-5xl	place-content-center w-12 ">
+                      <p className="m-auto flex bg-black text-5xl justify-center sm:align-middle w-12 sm:place-content-center object-center">
                         {img2}
                       </p>
                       <p className="text-black font-medium mt-3">{two}</p>
                     </div>
                     <div>
-                      <p className="bg-black ml-10		 mb-1 align-middle  text-5xl	place-content-center w-12 ">
+                      <p className="m-auto flex bg-black text-5xl justify-center sm:align-middle w-12 sm:place-content-center object-center">
                         {img3}
                       </p>
                       <p className="text-black font-medium mt-3">{three}</p>
                     </div>
                     <div>
-                      <p className="bg-black ml-10		 mb-1 align-middle  text-5xl	place-content-center w-12 ">
+                      <p className="m-auto flex bg-black text-5xl justify-center sm:align-middle w-12 sm:place-content-center object-center">
                         {img4}
                       </p>
                       <p className="text-black font-medium mt-3">{four}</p>
                     </div>
                     <div>
-                      <p className="bg-black ml-10		 mb-1 align-middle  text-5xl	place-content-center w-12 ">
+                      <p className="m-auto flex bg-black text-5xl justify-center sm:align-middle w-12 sm:place-content-center object-center">
                         {img5}
                       </p>
                       <p className="text-black font-medium mt-3">{five}</p>
                     </div>
                     <div>
-                      <p className="bg-black ml-10		 mb-1 align-middle  text-5xl	place-content-center w-12 ">
+                      <p className="m-auto flex bg-black text-5xl justify-center sm:align-middle w-12 sm:place-content-center object-center">
                         {img6}
                       </p>
                       <p className="text-black font-medium mt-3">{six}</p>
                     </div>
                     <div>
-                      <p className="bg-black ml-10		 mb-1 align-middle  text-5xl	place-content-center w-12 ">
+                      <p className="m-auto flex bg-black text-5xl justify-center sm:align-middle w-12 sm:place-content-center object-center">
                         {img7}
                       </p>
                       <p className="text-black font-medium mt-3">{seven}</p>
                     </div>
                     <div>
-                      <p className="bg-black ml-10		 mb-1 align-middle  text-5xl	place-content-center w-12 ">
+                      <p className="m-auto flex bg-black text-5xl justify-center sm:align-middle w-12 sm:place-content-center object-center">
                         {img8}
                       </p>
                       <p className="text-black font-medium mt-3">{eight}</p>
                     </div>
                     <div>
-                      <p className="bg-black ml-10		 mb-1 align-middle  text-5xl	place-content-center w-12 ">
+                      <p className="m-auto flex bg-black text-5xl justify-center sm:align-middle w-12 sm:place-content-center object-center">
                         {img9}
                       </p>
                       <p className="text-black font-medium mt-3">{nine}</p>
