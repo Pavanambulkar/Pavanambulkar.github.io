@@ -14,7 +14,7 @@ const Portfolio = () => {
       head: "Sendinblue - Clone",
       tech: "HTML | CSS | JavaScript | Rest API",
       link1: "https://enormous-underwear-686.vercel.app/",
-      link2: "https://github.com/Pavanambulkar/enormous-underwear-686",
+      link2: "https://github.com/Pavanambulkar/SendinBlue-Clone",
       para: "Sendinblue is the only all-in-one digital marketing platformempowering B2B and B2C businesses, ecommerce sellers and agencies to build customer relationships through end to end.",
     },
     {
