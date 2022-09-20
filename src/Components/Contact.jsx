@@ -54,16 +54,16 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
+        <div className="flex flex-col p-4  justify-center max-w-screen-lg mx-auto h-full">
         
         <a
               target="_blank"
               rel="noreferrer"
               href="tel:+917385581794"
             >
-          <div className="flex mt-4 align-middle gap-3">
-            <FcCallback size="40px" />
-            <p className="text-black text-2xl ">+91 7385581794</p>
+          <div className="flex mt-4 text-center align-middle gap-3">
+            <FcCallback size="35px" />
+            <p className="text-black text-xl ">+91 7385581794</p>
           </div>
           </a>
 
@@ -72,9 +72,9 @@ const Contact = () => {
               rel="noreferrer"
               href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
             >
-          <div className="flex mt-4 align-middle gap-3">
-              <SiGmail color="red" size="40px" />
-              <p className="text-black text-2xl ">pavanambulkar69@gmail</p>
+          <div className="flex mt-4  align-middle gap-3">
+              <SiGmail color="red" size="35px" />
+              <p className="text-black  text-xl ">pavanambulkar69@gmail</p>
           </div>
             </a>
            
@@ -84,8 +84,8 @@ const Contact = () => {
               href="https://github.com/Pavanambulkar"
             >
           <div className="flex mt-4 align-middle gap-3">
-            <FaGithub size="40px" />
-            <p className="text-black text-2xl ">Github</p>
+            <FaGithub size="35px" />
+            <p className="text-black text-xl ">Github</p>
           </div>
           </a>
           
@@ -95,8 +95,8 @@ const Contact = () => {
               href="https://www.linkedin.com/in/pavan-a-156447220/"
             >
           <div className="flex mt-4 align-middle gap-3">
-            <SiLinkedin color="blue" size="40px" />
-            <p className="text-black text-2xl ">Linkedin</p>
+            <SiLinkedin color="blue" size="35px" />
+            <p className="text-black text-xl ">Linkedin</p>
           </div>
           </a>
           {/* <SocialLinks /> */}
