@@ -11,7 +11,7 @@ const Contact = () => {
       <div
         name="Contact"
         
-        className="w-full  bg-red-100 grid grid-cols-1  sm:grid-cols-2 gap-8 text-center  py-8 px-12 sm:px-0"
+        className="w-full   bg-red-100 grid grid-cols-1  sm:grid-cols-2 gap-8 text-center  py-8 px-12 sm:px-0"
       >
         <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
           <div className="pb-8">
@@ -61,7 +61,7 @@ const Contact = () => {
               rel="noreferrer"
               href="tel:+917385581794"
             >
-          <div className="flex mt-4 text-center align-middle gap-3">
+          <div className="flex mt-4 w-full text-center align-middle gap-3">
             <FcCallback size="35px" />
             <p className="text-black text-xl ">+91 7385581794</p>
           </div>
@@ -72,7 +72,7 @@ const Contact = () => {
               rel="noreferrer"
               href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
             >
-          <div className="flex mt-4  align-middle gap-3">
+          <div className="flex mt-4   align-middle gap-3">
               <SiGmail color="red" size="35px" />
               <p className="text-black  text-xl ">pavanambulkar69@gmail</p>
           </div>
@@ -99,7 +99,6 @@ const Contact = () => {
             <p className="text-black text-xl ">Linkedin</p>
           </div>
           </a>
-          {/* <SocialLinks /> */}
         </div>
       </div>
     </>
