@@ -1,12 +1,19 @@
 import React from "react";
 import SocialLinks from "./SocialLinks";
+import { FcCallback } from "react-icons/fc";
+import { SiGmail } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+import { SiLinkedin } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
     <>
       <div
         name="Contact"
-        className="w-full mt-20 h-screen  bg-red-100 bg-gradient-to-b from-white to-white-800 p-4 text-black"
+        // w-full mt-20 h-screen  bg-red-100 bg-gradient-to-b from-white to-white-800 p-4 text-black
+        // w-full grid grid-cols-1  sm:grid-cols-2 gap-8 text-center  py-8 px-12 sm:px-0"
+        className="w-full  bg-red-100 grid grid-cols-1  sm:grid-cols-2 gap-8 text-center  py-8 px-12 sm:px-0"
       >
         <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
           <div className="pb-8">
@@ -18,17 +25,17 @@ const Contact = () => {
             </p>
           </div>
 
-          <div className=" flex justify-center items-center">
+          <div className=" flex justify-center   items-center">
             <form
               action="https://formspree.io/f/moqbjgkq"
               method="POST"
-              className=" flex flex-col w-full md:w-1/2"
+              className=" flex flex-col 	 w-full md:w-1.1/2"
             >
               <input
                 type="text"
                 name="name"
                 placeholder="Enter your name"
-                className="p-2 bg-transparent border-2 bg-emerald-200 rounded-md text-black focus:outline-none"
+                className="p-2 bg-transparent  border-2 bg-emerald-200 rounded-md text-black focus:outline-none"
               />
               <input
                 type="text"
@@ -49,8 +56,54 @@ const Contact = () => {
             </form>
           </div>
         </div>
+        <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
+        
+        <a
+              target="_blank"
+              rel="noreferrer"
+              href="tel:+917385581794"
+            >
+          <div className="flex mt-4 align-middle gap-3">
+            <FcCallback size="40px" />
+            <p className="text-black text-2xl ">+91 7385581794</p>
+          </div>
+          </a>
+
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
+            >
+          <div className="flex mt-4 align-middle gap-3">
+              <SiGmail color="red" size="40px" />
+              <p className="text-black text-2xl ">pavanambulkar69@gmail</p>
+          </div>
+            </a>
+           
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/Pavanambulkar"
+            >
+          <div className="flex mt-4 align-middle gap-3">
+            <FaGithub size="40px" />
+            <p className="text-black text-2xl ">Github</p>
+          </div>
+          </a>
+          
+          <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/pavan-a-156447220/"
+            >
+          <div className="flex mt-4 align-middle gap-3">
+            <SiLinkedin color="blue" size="40px" />
+            <p className="text-black text-2xl ">Linkedin</p>
+          </div>
+          </a>
+          {/* <SocialLinks /> */}
+        </div>
       </div>
-      <SocialLinks />
     </>
   );
 };
