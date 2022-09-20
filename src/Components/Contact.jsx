@@ -1,5 +1,4 @@
 import React from "react";
-import SocialLinks from "./SocialLinks";
 import { FcCallback } from "react-icons/fc";
 import { SiGmail } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
