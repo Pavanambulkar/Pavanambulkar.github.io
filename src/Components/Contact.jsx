@@ -11,8 +11,7 @@ const Contact = () => {
     <>
       <div
         name="Contact"
-        // w-full mt-20 h-screen  bg-red-100 bg-gradient-to-b from-white to-white-800 p-4 text-black
-        // w-full grid grid-cols-1  sm:grid-cols-2 gap-8 text-center  py-8 px-12 sm:px-0"
+        
         className="w-full  bg-red-100 grid grid-cols-1  sm:grid-cols-2 gap-8 text-center  py-8 px-12 sm:px-0"
       >
         <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
