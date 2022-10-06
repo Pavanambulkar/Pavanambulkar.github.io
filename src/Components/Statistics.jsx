@@ -1,5 +1,4 @@
 import React from "react";
-import "react-circular-progressbar/dist/styles.css";
 import GitHubCalendar from "react-github-calendar";
 
 // const percentage = 66;
