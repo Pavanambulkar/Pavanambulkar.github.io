@@ -1,15 +1,25 @@
 import React from "react";
 import arrayDestruct from "../assets/portfolio/sendinblue.png";
+import clock from "../assets/portfolio/clockify.png";
+
 import installNode from "../assets/portfolio/life.png";
 import navbar from "../assets/portfolio/expedia2.png";
 import reactParallax from "../assets/portfolio/zappos1.png";
 import reactSmooth from "../assets/portfolio/prime1.png";
-import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: clock,
+      head: "Clockify - Clone",
+      tech: "HTML | CSS | JavaScript | Rest API",
+      link1: "https://clockyf.netlify.app/",
+      link2: "https://github.com/saurabhsolanki/unused-library-4088",
+      para: "Time tracking software used by millions. Clockify is a time tracker and timesheet app that lets you track work hours across projects. Unlimited users, free forever.",
+    },
+    {
+      id: 2,
       src: arrayDestruct,
       head: "Sendinblue - Clone",
       tech: "HTML | CSS | JavaScript | Rest API",
@@ -18,7 +28,7 @@ const Portfolio = () => {
       para: "Sendinblue is the only all-in-one digital marketing platformempowering B2B and B2C businesses, ecommerce sellers and agencies to build customer relationships through end to end.",
     },
     {
-      id: 2,
+      id: 3,
       src: reactParallax,
       head: "Zappos - Clone",
       tech: "HTML | CSS | JavaScript | Rest API",
@@ -27,7 +37,7 @@ const Portfolio = () => {
       para: "Zappos is one of the fastest growing online Shopping portals in Asia, offering Shopping an extensive selection of Men, Women and  Kids Products to Enjoy every moment.",
     },
     {
-      id: 3,
+      id: 4,
       src: navbar,
       head: "Expedia - Clone",
       tech: "HTML | CSS | JavaScript | Rest API",
@@ -36,7 +46,7 @@ const Portfolio = () => {
       para: "Expedia is one of the fastest growing online travel portals in Asia, offering travellers an extensive selection of hotels, activities and travel services to meet every budget.",
     },
     {
-      id: 4,
+      id: 5,
       src: reactSmooth,
       head: "Prime Video - Clone",
       tech: "HTML | CSS | JavaScript | Rest API",
@@ -45,7 +55,7 @@ const Portfolio = () => {
       para: "Prime Video is an on-demand streaming service that's included with an Amazon Prime membership. If you don't have Amazon Prime, you can also sign up for Prime Video on its own.",
     },
     {
-      id: 5,
+      id: 6,
       src: installNode,
       head: "LifeStyleStores - Clone",
       tech: "HTML | CSS | JavaScript | Rest API",
@@ -104,9 +114,7 @@ const Portfolio = () => {
                   </span>
                 </a>
 
-                {/* <button className="w-1/2 px-6 text-black py-3 m-4 duration-200 hover:scale-105">
-                  Code
-                </button> */}
+                
               </div>
             </div>
           ))}
