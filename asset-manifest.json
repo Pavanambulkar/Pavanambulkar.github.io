@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5143b46d.css",
-    "main.js": "/static/js/main.0be2300b.js",
+    "main.js": "/static/js/main.3fb427a9.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/prime1.png": "/static/media/prime1.8572aaf1de9b1556d840.png",
     "static/media/heroImage.png": "/static/media/heroImage.95d043d3057437b6ae2e.png",
@@ -9,7 +9,7 @@
     "static/media/zappos1.png": "/static/media/zappos1.0910b1b3a4101f076383.png",
     "static/media/sendinblue.png": "/static/media/sendinblue.86ce853ea7c7c83889c6.png",
     "static/media/life.png": "/static/media/life.33d3ca362bb73a7a1059.png",
-    "static/media/Pavan_Ambulkar_Resume.pdf": "/static/media/Pavan_Ambulkar_Resume.fdcd1f4e0170d811e513.pdf",
+    "static/media/Pavan_Ambulkar_Resume.pdf": "/static/media/Pavan_Ambulkar_Resume.1c1ca13cdab7282a0721.pdf",
     "static/media/clockify.png": "/static/media/clockify.d618aae9c89b2a5ccb59.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/redux.png": "/static/media/redux.4d04114b5b4a64fd1d82.png",
@@ -25,11 +25,11 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.5143b46d.css.map": "/static/css/main.5143b46d.css.map",
-    "main.0be2300b.js.map": "/static/js/main.0be2300b.js.map",
+    "main.3fb427a9.js.map": "/static/js/main.3fb427a9.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5143b46d.css",
-    "static/js/main.0be2300b.js"
+    "static/js/main.3fb427a9.js"
   ]
 }
