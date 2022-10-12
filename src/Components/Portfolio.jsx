@@ -45,17 +45,9 @@ const Portfolio = () => {
       link2: "https://github.com/kiranwithcode/Expedia_Clone",
       para: "Expedia is one of the fastest growing online travel portals in Asia, offering travellers an extensive selection of hotels, activities and travel services to meet every budget.",
     },
+    
     {
       id: 5,
-      src: reactSmooth,
-      head: "Prime Video - Clone",
-      tech: "HTML | CSS | JavaScript | Rest API",
-      link1: "https://pavanambulkar.github.io/PRIME_GITHUB_PROJECT/",
-      link2: "https://github.com/Pavanambulkar/PRIME_GITHUB_PROJECT",
-      para: "Prime Video is an on-demand streaming service that's included with an Amazon Prime membership. If you don't have Amazon Prime, you can also sign up for Prime Video on its own.",
-    },
-    {
-      id: 6,
       src: installNode,
       head: "LifeStyleStores - Clone",
       tech: "HTML | CSS | JavaScript | Rest API",
