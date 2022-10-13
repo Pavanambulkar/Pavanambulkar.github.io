@@ -5,7 +5,6 @@ import clock from "../assets/portfolio/clockify.png";
 import installNode from "../assets/portfolio/life.png";
 import navbar from "../assets/portfolio/expedia2.png";
 import reactParallax from "../assets/portfolio/zappos1.png";
-import reactSmooth from "../assets/portfolio/prime1.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -32,7 +31,7 @@ const Portfolio = () => {
       src: reactParallax,
       head: "Zappos - Clone",
       tech: "HTML | CSS | JavaScript | Rest API",
-      link1: "https://pavanambulkar.github.io/Zappos_web_clone/",
+      link1: "https://pavanambulkar.github.io/Clone-Of-Zappos-Dot-Com/",
       link2: "https://github.com/Pavanambulkar/Zappos_web_clone",
       para: "Zappos is one of the fastest growing online Shopping portals in Asia, offering Shopping an extensive selection of Men, Women and  Kids Products to Enjoy every moment.",
     },
